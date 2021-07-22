@@ -19,18 +19,18 @@ We first began by creating new features. We added MVPs, Team championships, and 
 
 This is a comparison between hall of fame stats and average player stats
 
-![graph1](./images/hall_of_fame_vs_average.png)
+![graph1](./Images/hall_of_fame_vs_average.png)
 
 
 
 
 This is a comparison between hall of fame stats and Michael Jordan's stats
 
-![graph2](./images/jordan.png)
+![graph2](./Images/jordan.png)
 
 This is a comparison between hall of fame stats and Steph Curry stats
 
-![graph3](./images/steph.png)
+![graph3](./Images/steph.png)
 
 
 
