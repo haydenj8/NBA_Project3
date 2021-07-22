@@ -6,6 +6,10 @@
 ## Overview
 The goal of this project is to create the best predictive model for prediciting whether or not a NBA player will make it into the NBA Hall of Fame
 
+## Business Problem
+Right now there is a committee of people who vote on who gets into The Naismith Memorial Basketball Hall of Fame, but they will make mistakes just as all humans do. We created an unbiased model to predict if players should get into the HOF.
+We only wanted to look at players career stats, and not have people’s opinions diminish players chances of getting in.
+
 
 ## Data
 We examined data from two different NBA datasets. These sets of data included player names and all of their career stats.
@@ -15,17 +19,17 @@ We first began by creating new features. We added MVPs, Team championships, and 
 
 This is a comparison between hall of fame stats and average player stats
 
-![graph1](./images/hall_of_fame_vs_average.png)
+![graph1](images/hall_of_fame_vs_average.png)
 
 
 
 This is a comparison between hall of fame stats and Michael Jordan's stats
 
-![graph2](./images/jordan.png)
+![graph2](images/jordan.png)
 
 This is a comparison between hall of fame stats and Steph Curry stats
 
-![graph3](./images/steph.png)
+![graph3](images/steph.png)
 
 
 
@@ -41,8 +45,6 @@ We would like to implement a user interface so that anyone can put in stats of a
 After many models and tries we created a final model. Our final model has a great accuracy score but a lower precision score. In order to improve this model we would need to continue working on raising our model's precision score 
 
 
-## For More Information
-Please review our full analysis in [our Jupyter Notebook](./report.ipynb) or our [presentation](./microsoftmovieanalysispowerpoint.pdf).
 
 For any additional questions, please contact *Hayden Johnson at hcjohns1@bsc.edu, Wil Dotson at jwdotson@bsc.edu, or Lorin Helfenstein at lehelfen@bsc.edu**
 
