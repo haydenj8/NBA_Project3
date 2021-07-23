@@ -14,6 +14,27 @@ We only wanted to look at players career stats, and not have people’s opinions
 ## Data
 We examined data from two different NBA datasets. These sets of data included player names and all of their career stats.
 
+## Features
+Free Throws made
+2 Pointers made
+Points per Game
+Total Points
+Field Goals
+Rebounds
+Player Efficiency Rating
+Finals MVP’s
+MVP’s
+Personal Fouls
+Games Played
+Fouls per Game
+Assists per Game
+Rebounds per Game
+Offensive Rebounds
+Defensive Rebounds
+Assists
+Blocks
+Personal Fouls
+
 ## Methods
 We first began by creating new features. We added MVPs, Team championships, and Finals MVPs to our dataset. Then we used multiple groupby functions to create a career totals dataframe for all of the players in the dataset. We then removed all the players who had played less than two seasons. The next step was creating new features that turn the total stats into stats per game. This way players who had not played as long as others wouldnt be hurt in the model. Then we conducted a train test split on our data. Next, we used a SimpleImputer() with the median strategy to replace the null values in the 'player_efficiency_rating' column with the median of the other players in the dataset. We then transformed the X_train and X_val to replace the null values of these columns with the median. Then we transformed the already imputed variables with the standard scaler. Next we created a base model using logistic regression. We also used SMOTE to resample our data. We continued tuning our model with hyper paramaters until we got a high enough accuracy and precision score.
 
@@ -37,8 +58,7 @@ This is a comparison between hall of fame stats and Steph Curry stats
 
 
 ## Results
-After a good amount of trial and error we were able to get an accuracy score of .937 and a precision score of .586
-
+After a good amount of trial and error we were able to get an training accuracy score of .97 and a training precision score of .96 on our final model. Our validation accuracy is .97 and validation precision is .96
 # Next Steps
 We would like to implement a user interface so that anyone can put in stats of any player and our model could tell them if the player would make it into the hall of fame
 
